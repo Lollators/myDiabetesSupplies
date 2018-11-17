@@ -11,12 +11,15 @@ This project is going to be under constant development. Whenever something will 
 
 ## Project Description
 
+## MySQL Setup
 
+In order to properly run this project, MySQL needs to be installed on the computer.
+
+Once MySql is installed, utilize the command ```mysql -u USERNAME -p``` this prompts for the database password. Once inserted, please refer to the myDiabetesSupplies.sql file in order to obtain the SQL queries to create and populate the database.
 
 ## ToDo:
 - [ ] Add invalid username check label when trying to delete a user.
-- [ ] Add username already exist check label when trying to add a new user.
-- [ ] Add thorough JavaDOC-compatible documentation.
+- [ ] Add username already exist check when trying to add a new user.
 
 ## Bugs?
 
