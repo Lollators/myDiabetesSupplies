@@ -7,13 +7,13 @@ This project was incentivated by Professor Vanselow, and his COP 3003 class.
 The files contained in this repository are used for grading purposes in the COP 3003 class of the fall semester 2018.
 
 The languages used are **Java**, **JavaFX**, and **SQL**.
-This project is going to be under constant development. Whenever something will need to be added to the program, it will also  be displayed under the **TODO** section of this README.
+This project is going to be under constant development. Whenever something will need to be added to the program, it will also  be displayed under the **ToDo** section of this README.
 
 ## Project Description
 
 
 
-## TODO:
+## ToDo:
 - [ ] Add invalid username check label when trying to delete a user.
 - [ ] Add username already exist check label when trying to add a new user.
 - [ ] Add thorough JavaDOC-compatible documentation.
