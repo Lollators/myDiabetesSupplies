@@ -17,9 +17,22 @@ This project is aimed towards creating a software to manage diabetes supplies. T
 
 In order to properly run this project, MySQL needs to be installed on the computer.
 
-Once MySql is installed, utilize the command ```mysql -u USERNAME -p``` this prompts for the database password. Once inserted, please refer to the myDiabetesSupplies.sql file in order to obtain the SQL queries to create and populate the database.
+Once MySql is installed, utilize the command ```mysql -u USERNAME -p```, and it will prompt for the database password. Once inserted, please refer to the myDiabetesSupplies.sql file in order to obtain the SQL queries to create and populate the database.
+
+In order to handle the DB properly, we need to use [MySQL Connector](https://dev.mysql.com/downloads/connector/j/). This can be included in the project by going to ```File -> Project Structure -> Modules```, and then add the JAR file obtained from the download.
 
 The Database Diagram can be seen from the **DB_Diagram.pdf** file, included in this repository.
+
+## GUI Design Principles
+
+This project adheres to some GUI Design Principles, as:
+
+- It provides meaningful contrast between screen elements.
+- It uses colors and graphics effectively and simply.
+- The interface is visually, conceptually and linguistically clear.
+- The user can control interactions effectively.
+- The effect of actions on objects are visible (especially alterations to the database).
+- It is very responsive.
 
 ## ToDo:
 - [ ] Add invalid username check label when trying to delete a user.
