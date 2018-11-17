@@ -11,11 +11,15 @@ This project is going to be under constant development. Whenever something will 
 
 ## Project Description
 
+This project is aimed towards creating a software to manage diabetes supplies. There can be multiple users added. These users will be stored in a database along with a table reserved for the supplies. The primary key of the user is going to be their username (does not allow duplicates). The primary key of the products is going to be their serial number. There will be a third table used to set each of the primary keys as foreign keys to build a relation. This will prevent items being left in the database when a certain entity, whose relationship is connected to the item, is deleted.
+
 ## MySQL Setup
 
 In order to properly run this project, MySQL needs to be installed on the computer.
 
 Once MySql is installed, utilize the command ```mysql -u USERNAME -p``` this prompts for the database password. Once inserted, please refer to the myDiabetesSupplies.sql file in order to obtain the SQL queries to create and populate the database.
+
+The Database Diagram can be seen from the **DB_Diagram.pdf** file, included in this repository.
 
 ## ToDo:
 - [ ] Add invalid username check label when trying to delete a user.
