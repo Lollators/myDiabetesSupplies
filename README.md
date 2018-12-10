@@ -38,9 +38,6 @@ This project adheres to some GUI Design Principles, as:
 - [ ] Add invalid username check label when trying to delete a user.
 - [ ] Add username already exist check when trying to add a new user.
 
-## Class Diagram
-![Project Class Diagram](docs/ClassDiagram.png)
-
 ## Built With
 
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/) - IDE of choice
